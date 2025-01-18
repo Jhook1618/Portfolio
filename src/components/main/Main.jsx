@@ -1,9 +1,10 @@
 import "./Main.css";
 
-import Navbar from "./nav/Nav";
 import Side from "../side/Side";
-import Projects from "./projects/Projects";
-import PageNav from "./pageNav/PageNav";
+import Navbar from "./1.nav/Nav";
+import Projects from "./2.projects/Projects";
+import PageNav from "./3.pageNav/PageNav";
+import About from "./4.about/About";
 
 const Hero = () => {
   return (
@@ -16,6 +17,7 @@ const Hero = () => {
           <Navbar />
           <Projects />
           <PageNav />
+          <About />
         </div>
       </div>
     </div>

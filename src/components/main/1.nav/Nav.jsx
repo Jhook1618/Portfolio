@@ -10,6 +10,7 @@ const Nav = () => {
     { index: 3, name: "EXPRESS" },
     { index: 4, name: "REACT" },
     { index: 5, name: "NODEJS" },
+    { index: 6, name: "PYTHON3" },
   ];
 
   return (

@@ -1,0 +1,93 @@
+.PageNav-container {
+  margin: 50px 20px 50px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  /* background: var(--color-loading-bg); */
+}
+
+.PageNav-container .PageNav-content ul {
+  display: flex;
+  list-style: none;
+}
+
+.PageNav-container .PageNav-content ul li {
+  padding: 10px 10px;
+}
+
+.inactiveNav {
+  cursor: pointer;
+  padding: 10px 10px;
+  color: var(--color-primary);
+  font-weight: 500;
+  font-size: 1.2em;
+  margin: 0 10px 0 10px;
+  transition: 0.3s ease-in-out;
+  border: 1px solid var(--color-secondary);
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  text-decoration: none;
+}
+
+.inactiveNav:hover {
+  background: var(--color-secondary);
+  color: var(--color-background);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.PageNav {
+  cursor: pofffinter;
+  padding: 10px 10px;
+  font-weight: 500;
+  font-size: 1.2em;
+  margin: 0 10px 0 10px;
+  transition: 0.3s ease-in-out;
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  text-decoration: none;
+  color: #000;
+}
+
+.PageNav:hover {
+  border: 1px solid var(--color-secondary);
+}
+
+.activeNav {
+  background: var(--color-secondary);
+  color: #fff;
+  cursor: pointer;
+  padding: 10px 10px;
+  font-weight: 500;
+  font-size: 1.2em;
+  margin: 0 10px 0 10px;
+  transition: 0.3s ease-in-out;
+  border: 1px solid var(--color-secondary);
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  text-decoration: none;
+}
+
+.activeNav:hover {
+  background: var(--color-secondary);
+  color: var(--color-background);
+}

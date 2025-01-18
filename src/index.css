@@ -4,3 +4,7 @@
   box-sizing: border-box;
   /* align-items: center; */
 }
+
+html {
+  background: var(--color-background-secondary);
+}
