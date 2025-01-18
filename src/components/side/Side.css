@@ -1,0 +1,112 @@
+:root {
+  --color-primary: #1a1a1a;
+  --color-background: #ffffff;
+  --color-secondary: #009688;
+  --color-background-secondary: #cccccc;
+  --color-loading: #616161;
+  --color-loading-bg: #9e9e9e;
+  --font-primary: "Poppins", sans-serif;
+  --font-secondary: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.navbar-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 20px;
+  /* margin-right: 20px; */
+  height: auto;
+  background: #ffffff;
+}
+
+.nav-logo {
+  background: var(--color-background);
+}
+
+.nav-logo .passport-photo {
+  border-radius: 5%;
+  width: 120px;
+  height: 120px;
+  margin-left: 20px;
+}
+
+.nav-logo .name {
+  margin-left: 20px;
+  font-size: 20px;
+  font-family: var(--font-secondary);
+  font-weight: lighter;
+  font-size: 1.5em;
+  padding-top: 20px;
+
+  align-items: center;
+  color: var(--color-primary);
+}
+
+.nav-logo p {
+  font-size: 1em;
+  font-family: var(--font-secondary);
+  /* font-weight: 100; */
+  color: var(--color-secondary);
+  padding-bottom: 20px;
+  margin-left: 20px;
+}
+
+.nav-logo .nav-links ul li {
+  list-style: none;
+  font-size: 1em;
+  font-family: var(--font-secondary);
+  font-weight: 100;
+  margin: 9px 0;
+  color: var(--color-loading-bg);
+  transition: 0.3s ease-in-out;
+}
+
+.nav-logo .nav-links ul li:hover {
+  background: var(--color-background-secondary);
+  width: 100%;
+}
+
+.icon {
+  margin-right: 10px;
+}
+
+.nav-logo .nav-links ul li a {
+  text-decoration: none;
+  display: flex;
+  width: 100%;
+  font-weight: 400;
+  color: var(--color-primary);
+  padding: 10px 0 10px 20px;
+  transition: 0.3s ease-in-out;
+}
+
+/* i:hover, */
+.nav-logo .nav-links ul li a:hover {
+  color: var(--color-secondary);
+  width: 100%;
+}
+
+.social-media-container {
+  margin-left: 20px;
+}
+
+.social-media-container .social-media {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-top: 20px;
+  font-size: 1.6em;
+}
+
+.social-media-container .social-media .icon-social {
+  display: flex;
+  list-style: none;
+  transition: transform 0.3s ease, color 0.3s ease;
+  cursor: pointer;
+}
+
+.social-media-container .social-media .icon-social:hover {
+  color: var(--color-secondary);
+  transform: scale(1.2);
+}
