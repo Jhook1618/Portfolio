@@ -8,10 +8,10 @@
 }
 
 .contacts-form-container .contacts-input {
-  margin: 0px 0 20px 0;
+  margin: 0px 0 20px -17px;
   padding: 10px 10px;
   box-sizing: border-box;
-  width: 95%;
+  width: 96%;
   border: none;
   transition: 0.3s ease;
   background: var(--color-background-secondary);
