@@ -6,16 +6,16 @@ const Nav = () => {
 
   let links = [
     { index: 1, name: "ALL" },
-    { index: 8, name: "HTML 5" },
-    { index: 9, name: "CSS 3" },
+    { index: 8, name: "HTML5" },
+    { index: 9, name: "CSS3" },
     { index: 7, name: "JAVASCRIPT" },
     { index: 4, name: "REACT" },
     { index: 10, name: "GIT" },
     { index: 11, name: "GITHUB" },
-    { index: 5, name: "NODE JS" },
-    { index: 3, name: "EXPRESS JS" },
-    { index: 2, name: "MONGO DB" },
-    { index: 6, name: "PYTHON 3" },
+    { index: 5, name: "NODEJS" },
+    { index: 3, name: "EXPRESSJS" },
+    { index: 2, name: "MONGODB" },
+    { index: 6, name: "PYTHON3" },
   ];
 
   return (
