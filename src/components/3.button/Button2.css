@@ -1,0 +1,34 @@
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.button-container .btn {
+  background: var(--color-secondary);
+  padding: 15px 25px;
+  border: none;
+  color: var(--color-background);
+  cursor: pointer;
+  font-size: 1.2em;
+  transition: 0.3s ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 100;
+}
+
+.button-container .btn:hover {
+  background: var(--color-loading);
+}
+
+.item-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1em;
+  margin-right: 10px;
+  color: var(--color-background);
+}

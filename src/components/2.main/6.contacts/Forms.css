@@ -1,0 +1,32 @@
+.contacts-form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 0 10px 0;
+  box-sizing: border-box;
+}
+
+.contacts-form-container .contacts-input {
+  margin: 0px 0 20px 0;
+  padding: 10px 10px;
+  box-sizing: border-box;
+  width: 95%;
+  border: none;
+  transition: 0.3s ease;
+  background: var(--color-background-secondary);
+  color: var(--color-primary);
+  border-radius: 5px;
+  font-weight: 300;
+  font-size: 1em;
+  font-family: var(--font-secondary);
+}
+
+.contacts-form-container .contacts-input:hover {
+  outline: 2px solid var(--color-loading);
+  background: var(--color-background);
+}
+
+.contacts-form-container .contacts-input:focus {
+  outline: 2px solid var(--color-secondary);
+}

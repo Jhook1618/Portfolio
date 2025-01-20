@@ -49,7 +49,7 @@
   .projects-content-text
   p:nth-child(1) {
   font-family: var(--font-secondary);
-  font-weight: 600;
+  font-weight: 300;
   color: var(--color-secondary);
   font-size: 1.3em;
   /* color: red; */

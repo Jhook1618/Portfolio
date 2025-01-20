@@ -20,7 +20,8 @@
   cursor: pointer;
   padding: 10px 10px;
   color: var(--color-primary);
-  font-weight: 500;
+  font-weight: 100;
+  font-family: var(--font-secondary);
   font-size: 1.2em;
   margin: 0 10px 0 10px;
   transition: 0.3s ease-in-out;
@@ -48,7 +49,8 @@ a {
 .PageNav {
   cursor: pofffinter;
   padding: 10px 10px;
-  font-weight: 500;
+  font-weight: 100;
+  font-family: var(--font-secondary);
   font-size: 1.2em;
   margin: 0 10px 0 10px;
   transition: 0.3s ease-in-out;
@@ -60,11 +62,14 @@ a {
   display: flex;
   text-align: center;
   text-decoration: none;
+  cursor: pointer;
   color: #000;
 }
 
 .PageNav:hover {
   border: 1px solid var(--color-secondary);
+  /* background: var(--color-secondary); */
+  /* color: var(--color-background); */
 }
 
 .activeNav {
@@ -72,7 +77,8 @@ a {
   color: #fff;
   cursor: pointer;
   padding: 10px 10px;
-  font-weight: 500;
+  font-weight: 100;
+  font-family: var(--font-secondary);
   font-size: 1.2em;
   margin: 0 10px 0 10px;
   transition: 0.3s ease-in-out;

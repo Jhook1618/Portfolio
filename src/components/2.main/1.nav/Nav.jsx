@@ -6,11 +6,16 @@ const Nav = () => {
 
   let links = [
     { index: 1, name: "ALL" },
-    { index: 2, name: "MONGODB" },
-    { index: 3, name: "EXPRESS" },
+    { index: 8, name: "HTML 5" },
+    { index: 9, name: "CSS 3" },
+    { index: 7, name: "JAVASCRIPT" },
     { index: 4, name: "REACT" },
-    { index: 5, name: "NODEJS" },
-    { index: 6, name: "PYTHON3" },
+    { index: 10, name: "GIT" },
+    { index: 11, name: "GITHUB" },
+    { index: 5, name: "NODE JS" },
+    { index: 3, name: "EXPRESS JS" },
+    { index: 2, name: "MONGO DB" },
+    { index: 6, name: "PYTHON 3" },
   ];
 
   return (
@@ -20,7 +25,7 @@ const Nav = () => {
       </div>
       <div>
         <div className="nav-filter">
-          <h5>Filter:</h5>
+          <h5>Tags:</h5>
 
           {/* Skills List */}
           {/* {items.map((item) => ())} */}

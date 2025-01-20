@@ -1,10 +1,13 @@
 import "./Main.css";
 
-import Side from "../side/Side";
+import Side from "../1.side/Side";
 import Navbar from "./1.nav/Nav";
 import Projects from "./2.projects/Projects";
 import PageNav from "./3.pageNav/PageNav";
 import About from "./4.about/About";
+import ChargeSheet from "./5.chargeSheet/ChargeSheet";
+import Contacts from "./6.contacts/Contacts";
+import Footer from "./7.footer/Footer";
 
 const Hero = () => {
   return (
@@ -18,6 +21,9 @@ const Hero = () => {
           <Projects />
           <PageNav />
           <About />
+          <ChargeSheet />
+          <Contacts />
+          <Footer />
         </div>
       </div>
     </div>

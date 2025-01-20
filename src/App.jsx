@@ -2,7 +2,7 @@ import "./App.css";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-import Main from "./components/main/Main";
+import Main from "./components/2.main/Main";
 // import Button from "./components/button/Button";
 
 function App() {
