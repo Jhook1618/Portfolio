@@ -29,48 +29,50 @@ const Contacts = () => {
       </div>
 
       {/* Forms */}
-      <div className="contacts-form-container">
-        {/* First Name */}
-        <input
-          type="text"
-          placeholder="First Name: John"
-          className="contacts-input"
-        />
+      <div className="contacts-form-container-main">
+        <div className="contacts-form-container">
+          {/* First Name */}
+          <input
+            type="text"
+            placeholder="First Name: John"
+            className="contacts-input"
+          />
 
-        {/* Last Name */}
-        <input
-          type="text"
-          placeholder="Last Name: Doe"
-          className="contacts-input"
-        />
+          {/* Last Name */}
+          <input
+            type="text"
+            placeholder="Last Name: Doe"
+            className="contacts-input"
+          />
 
-        {/* Email */}
-        <input
-          type="text"
-          placeholder="Email: example@email.com"
-          className="contacts-input"
-        />
+          {/* Email */}
+          <input
+            type="text"
+            placeholder="Email: example@email.com"
+            className="contacts-input"
+          />
 
-        {/* Phone Number */}
-        <input
-          type="text"
-          placeholder="Phone Number: +123 456 789 012"
-          className="contacts-input"
-        />
+          {/* Phone Number */}
+          <input
+            type="text"
+            placeholder="Phone Number: +123 456 789 012"
+            className="contacts-input"
+          />
 
-        {/* Password */}
-        <input
-          type="password"
-          placeholder="Password: **********"
-          className="contacts-input"
-        />
+          {/* Password */}
+          <input
+            type="password"
+            placeholder="Password: **********"
+            className="contacts-input"
+          />
 
-        {/* Message */}
-        <textarea
-          type="text"
-          placeholder="Message: Enter Your message here..."
-          className="contacts-input"
-        />
+          {/* Message */}
+          <textarea
+            type="text"
+            placeholder="Message: Enter Your message here..."
+            className="contacts-input"
+          />
+        </div>
       </div>
       <div className="contacts-button-container">
         <Button3 />

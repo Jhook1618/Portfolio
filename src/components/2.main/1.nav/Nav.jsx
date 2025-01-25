@@ -24,7 +24,7 @@ const Nav = () => {
         <h4>PORTFOLIO</h4>
       </div>
       <div>
-        <div className="nav-filter">
+        <div className="nav-tags">
           <h5>Tags:</h5>
 
           {/* Skills List */}

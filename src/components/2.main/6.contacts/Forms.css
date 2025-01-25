@@ -1,17 +1,27 @@
-.contacts-form-container {
+.contacts-form-container-main {
+  margin-top: 40px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 40px 0 10px 0;
   box-sizing: border-box;
+  width: 100%;
+}
+.contacts-form-container {
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  width: 100%;
 }
 
 .contacts-form-container .contacts-input {
-  margin: 0px 0 20px -17px;
+  /* margin: 0px 0 20px -17px; */
   padding: 10px 10px;
   box-sizing: border-box;
-  width: 96%;
+  width: 60%;
   border: none;
   transition: 0.3s ease;
   background: var(--color-background-secondary);

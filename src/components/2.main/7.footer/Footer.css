@@ -1,6 +1,6 @@
 .footer-content-container {
   background: var(--color-loading);
-  width: 102%;
+  /* width: 102%; */
   display: flex;
   flex-direction: column;
   justify-content: center;

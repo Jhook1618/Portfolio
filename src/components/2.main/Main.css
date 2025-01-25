@@ -11,27 +11,34 @@
 .main-container {
   display: flex;
   justify-content: center;
-  height: 100%;
-  width: 100%;
+  height: auto;
+  width: auto;
   background: var(--color-background-secondary);
-  font-family: var(--font-primary);
+  font-family: var(--font-secondary);
   box-sizing: border-box;
 }
 
-.main-container .sub-main-container {
+/* .main-container .sub-main-container {
   display: flex;
-  height: 100vh;
+  height: auto;
   justify-content: space-between;
   width: 80%;
   background: var(--color-background);
+} */
+
+.main-container .sub-main-container {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 20px;
 }
 
 .main-container .sub-main-container .side-container {
-  width: 20%;
+  /* width: 20%; */
   background: var(--color-tertiary);
 }
 
 .main-container .sub-main-container .home-container {
-  width: 80%;
+  /* width: 80%; */
   background: var(--color-background-secondary);
+  margin-right: 20px;
 }
